@@ -10,6 +10,8 @@ $ git clone https://github.com/akinozsoy/MyPortfolioUdemy
 ![](https://i.hizliresim.com/1w09p2l.png)
 ![](https://i.hizliresim.com/epc87te.png)
 ![](https://i.hizliresim.com/8dejcjo.png)
-![](https://i.hizliresim.com/mt68nli.jpg)
+![](https://i.hizliresim.com/ihvrotf.png)
+![](https://i.hizliresim.com/tvr9mio.png)
+![](https://i.hizliresim.com/s3apd65.png)
 
 2024 © Akın Özsoy
