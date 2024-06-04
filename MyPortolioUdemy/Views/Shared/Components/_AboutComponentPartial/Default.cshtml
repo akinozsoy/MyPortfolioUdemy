@@ -1,0 +1,38 @@
+﻿
+<section id="about" class="s-about target-section">
+
+    <div class="row narrow section-intro has-bottom-sep">
+        <div class="col-full text-center">
+            <h3>About me</h3>
+            <h1>@ViewBag.aboutTitle</h1>
+            <p class="lead">@ViewBag.aboutSubDescription</p>
+        </div>
+    </div>
+
+    <div class="row about-content">
+
+        <div class="col-six tab-full left">
+            <h3>WHO AM I?</h3>
+
+            <p>@ViewBag.aboutDetail</p>
+        </div>
+
+        @await Component.InvokeAsync("_SkillComponentPartial")
+        
+
+    </div> <!-- end about-content -->
+
+    <div class="row about-content about-content--buttons">
+
+        <div class="col-six tab-full left">
+            <a href="~/excel-cv-örneği.xls" class="btn btn--primary full-width" download="excel-cv-örneği">Download My CV</a>
+        </div>
+        <div class="col-six tab-full right">
+            <a href="mailto:akinozsoy@dizaynetiket.com" class="btn full-width">Contact Me</a>
+        </div>
+
+    </div> <!-- end about-content buttons -->
+    @await Component.InvokeAsync("_ExperienceComponentPartial")
+     <!-- end about-content timeline -->
+
+</section>
